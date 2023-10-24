@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+    height: 60px;
+}
+
+header > h1 {
+    margin:10px;
+}
+nav > ul > a {
+    text-decoration: none;
+    padding: 20px;
+    color:black;
+}
+nav > ul > a:hover {
+    color: grey;
+    background-color: black;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#projetos {
+    height: 1000px;
+    background-color: rgb(177, 177, 177);
+    text-align: center;
+    border: 3px solid black;
+}
+#serviços {
+    height: 1000px;
+    background-color: rgb(177, 177, 177);
+    text-align: center;
+    border: 3px solid black;
+}
+#contatos {
+    height: 50px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border: 3px solid black;
+}

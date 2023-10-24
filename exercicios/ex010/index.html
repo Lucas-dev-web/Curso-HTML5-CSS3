@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/09%20-%20Listas%20HTML.pdf" title="github das aulas em pdf do curso em video" target="_blank" rel="external">repositório público no github</a></p>
+    <!--Tag 'a' serve para criar um link para um outro site, sendo esse externo ou interno-->
+
+    <!--Podemos ter um parametro chamado title para dar um nome ao nosso link-->
+
+<!-- Em links com a tag 'a' podemos colocar um parametro chamado target='_blank' que serve para que quando a pessoa clicar no link para um outro site em vez de o nosso site ser sobrescrito, ele abre uma novo pagina, mantendo o nosso site-->
+    <p>Você pode tmbém acessar o meu <a href="https://youtube.com/" target="_self" title="Canal do youtube" rel="external">canal gratuito no youtube</a></p>
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="spg.html" target="_self" rel="next">segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="">página de notícias</a></p>
+    <h1>Links para download</h1>
+    <ul>
+    <li><a href="meulivro.pdf" download="meulivro.pdf" rel="application/pdf">baixar o livro em PDF</a></li>
+    <li><a href="meulivro.zip" download="meulivro.zip" rel="application/zip">Livro compactado em ZIP</a></li>
+
+    </ul>
+</body> 
+</html>

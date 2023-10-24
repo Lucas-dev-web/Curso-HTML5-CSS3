@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-width=1.0">
+        <title>Mídias em HTML5</title>
+    </head>
+    <body>
+        <h1>Imagem dinâmica</h1>
+        <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o navegador.</p>
+        <picture>
+            <source media="(max-width:750px)" srcset="imagens/ft-p.png" type="image/png">
+           <source media="(max-width: 1050px)" srcset="imagens/ft-m.png" type="image/png">
+<img src="imagens/ft-g.png" alt="Letra g">
+        </picture>
+        <h1>Reproduzindo áudios</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5</p>
+        <!-- A tag audio faz a reprodução de audios no seu site, podemos trazer o audio direto na tag audio ou abria a tag audio e dentro colocar source:src para dar suporte a mais de um audio, também colocar alguns parametros na tag audio como controls para aparece os controles, autoplay para que quando o site seja atualizado o audio começe a tocar e também o loop para que quando o audio acabe ele começe a tocar novamente-->
+       <audio preload="metadata"  controls loop>
+            <source src="midias/som.mp3" type="audio/mpeg">
+            <source src="midias/som.ogg" type="audio/ogg">
+            <source src="midias/som.wav" type="audio/wav">
+<source src="midias/som.mp5" type="audio/mp5">
+<p>infelizmente seu navegador nao é compativel com o formato de áudio </p>
+       </audio>
+    </body>
+</html>
